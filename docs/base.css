@@ -1,0 +1,36 @@
+teiHeader {
+    display: none;
+}
+
+body {
+  margin-top: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  overflow-x: auto;
+  width: 100%;
+}
+
+body persName {
+  color: red;
+}
+
+body placeName {
+  color: green;
+}
+
+body date {
+  color: blue;
+}
+
+lb:after {
+  content: "\a";
+  white-space: pre;
+}
+
+space:after {
+    content: "　";
+}
+
+space[quantity="2"]:after {
+    content: "　　";
+}
